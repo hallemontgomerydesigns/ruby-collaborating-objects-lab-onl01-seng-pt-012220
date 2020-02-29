@@ -9,5 +9,7 @@ class MP3Importer
     
     Dir.entries(@path).select{|file|.include?(".mp3")}
     
+  end
+    
   
 end
